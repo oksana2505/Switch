@@ -20,16 +20,23 @@
     margin-bottom: -38px;
     background: inherit;
     box-shadow: inset 0 11px 35px -8px rgba(0, 0, 0, .68);
-    /*filter: blur(10px);*/
+
     background: linear-gradient(to top, transparent 70%,transparent 30%);
 
     position: relative;
     z-index: 1;
 }
-/*.page_header:before {*/
-    /*box-shadow: inset 0 11px 35px -8px rgba(0, 0, 0, .68);*/
-    /*filter: blur(10px);*/
-/*}*/
+.page_header-sticky {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 11px 35px -8px rgba(0, 0, 0, .68);
+    /*z-index: 10;*/
+    transition: background-color 1s;
+}
+
 /*  NAVIGATION  */
 
 

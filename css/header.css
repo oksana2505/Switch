@@ -18,12 +18,18 @@
     width: 100%;
     height: 38px;
     margin-bottom: -38px;
-    background-color: transparent;
+    background: inherit;
+    box-shadow: inset 0 11px 35px -8px rgba(0, 0, 0, .68);
+    /*filter: blur(10px);*/
+    background: linear-gradient(to top, transparent 70%,transparent 30%);
 
     position: relative;
     z-index: 1;
 }
-
+/*.page_header:before {*/
+    /*box-shadow: inset 0 11px 35px -8px rgba(0, 0, 0, .68);*/
+    /*filter: blur(10px);*/
+/*}*/
 /*  NAVIGATION  */
 
 
@@ -33,6 +39,7 @@
     display: block;
     width: 445px;
     margin: 0 15px;
+
 
 }
 
@@ -108,6 +115,7 @@
     font-family: "Nautilus Pompilius";
     color: #ffffff;
     text-align: center;
+
 }
 .brand a {
 

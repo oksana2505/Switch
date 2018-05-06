@@ -81,15 +81,16 @@
     margin: 0 auto;
     background-color: #ffffff;
 
-    bottom: -14px;
+    bottom: -10px;
     left: 0;
-    /*right: 0;*/
+    right: 0;
 }
 .summary_description {
     color: white;
     font-family: "Proxima Nova Regular",sans-serif;
     font-size: 16px;
     text-align: center;
+    padding-top: 10px;
 }
 .social_network2 {
     width: 85px;
@@ -205,11 +206,18 @@
     width: 312px;
     text-align: center;
     right: 32px;
+
 }
 span {
     position: relative;
 }
-
+.address {
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: "Proxima Nova Light",sans-serif;
+    line-height: 16px;
+    padding-bottom: 20px;
+}
 
 /*  FORMA FEEDBACK  */
 form {
@@ -332,40 +340,3 @@ form {
 }
 /*  /FORMA FEEDBACK  */
 
-.massmedia {
-    display: block;
-    background-color: #222222;
-    position: relative;
-    height: 150px;
-}
-.massmedia_title {
-    text-align: center;
-    font-family: "Montserrat Light", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    position: relative;
-}
-.massmedia_title::before {
-
-    position: absolute;
-
-    content: "";
-    display: block;
-    width: 30px;
-    height: 2px;
-    margin: 0 auto;
-    background-color: #ffffff;
-
-    bottom: -14px;
-    left: 0;
-}
-.massmedia_item {
-    display: block;
-    list-style: none;
-    position: relative;
-    float: left;
-    top: 75px;
-    width: 170px;
-    margin: 0 50px;
-}

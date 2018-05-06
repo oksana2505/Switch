@@ -107,12 +107,6 @@
                     <input type="radio" name="filter" value="print">
                     <button class="print">print</button>
                 </label>
-                <!--<input id="latestwork-photography" type="radio" name="filter" value="photography" checked>
-                <input id="latestwork-design" type="radio" name="filter" value="design">
-                <input id="latestwork-print" type="radio" name="filter" value="print">
-                <label class="latestwork_filter" for="latestwork-photography">photography</label>
-                <label class="latestwork_filter" for="latestwork-design">design</label>
-                <label class="latestwork_filter" for="latestwork-print">print</label>-->
                 <button class="btn btn-filter3" type="submit">View more work<i class="fa fa-arrow-right"></i></button>
             </form>
             <ul class="latestwork_list">
@@ -155,12 +149,62 @@
         <div class="container">
             <h2 class="testimonials-title">TESTIMONIALS</h2>
             <p  class="testimonials_description">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
-            <p class="testimonials_1">“Awalnya saya tidak menderita penyakit apapun,<br>
-                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                tidak menderita penyakit apapun!"</p>
+
+            <div id="offers_slider" class="slider">
+                <input id="slide-01" class="slider_switch" type="radio" name="switch" checked>
+                <input id="slide-02" class="slider_switch" type="radio" name="switch">
+                <input id="slide-03" class="slider_switch" type="radio" name="switch">
+                <div class="slider_wrapper">
+                    <ul class="slider_content container">
+                        <li class="slider_slide slider_slide-01">
+                            <p class="testimonials_content">“Awalnya saya tid ak menderita penyakit apapun,
+                                namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+                                tidak menderita penyakit apapun!”</p>
+                            <div class="herp">
+                                <img class="herp-1" src="img/herp1.png" alt="face">
+                                <p class="herp_name">Mr. Darck</p>
+                                <p class="herp_info">CEO of Meme, Inc.</p>
+                            </div>
+                        </li>
+                        <li class="slider_slide slider_slide-02">
+                            <p class="testimonials_content">“Salus populi suprema lex esto. Scire leges non est verba tenere, sed vim ac mentem. Semper moram fur facere videtur. ”</p>
+                            <div class="herp">
+                                <img class="herp-2" src="img/herp2.png" alt="face">
+                                <p class="herp_name">Mr. Maryk</p>
+                                <p class="herp_info">CEO of Nium, Inc.</p>
+                            </div>
+                        </li>
+                        <li class="slider_slide slider_slide-03">
+                            <p class="testimonials_content">“Par in parem non habet iurisdictionem. Paribus sententiis reus absolvitur. Pax quaerenda est. Post hoc non est propter hoc. Prior tempore potior iure. ”</p>
+                            <div class="herp">
+                                <img class="herp-3" src="img/herp3.png" alt="face">
+                                <p class="herp_name">Mr. Herp</p>
+                                <p class="herp_info">CEO of Djoy, Inc.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="slider_indicators">
+                        <label class="slider_indicator" for="slide-01"></label>
+                        <label class="slider_indicator" for="slide-02"></label>
+                        <label class="slider_indicator" for="slide-03"></label>
+                    </div>
+                </div>
+                <button class="slider_btn slider_btn-prev" type="button">&#8249;</button>
+                <button class="slider_btn slider_btn-next" type="button">&#8250;</button>
+            </div>
+    </section>
+
+
+
+
+
+
+            <!--<p class="testimonials_1">“Awalnya saya tidak menderita penyakit apapun,<br>-->
+                <!--namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan-->
+                <!--tidak menderita penyakit apapun!"</p>-->
             <!--<button class="testimonials_btn testimonials_btn-prev" type="button">#</button>-->
             <!--<button class="testimonials_btn slider_btn-next" type="button">#</button>-->
-            <ul class="testimonial-client">
+            <!--<ul class="testimonial-client">
                 <li class="avatar-client">
                     <img class="avatar" src="img/ellipse 1.png" alt="#">
                 </li>
@@ -440,7 +484,7 @@
 <!--  JAVA SCRIPTS  -->
 
 <script src="js/no-js.js"></script>
-
+<script src="js/slider.js"></script>
 <script src="js/sticky-header.js"></script>
 
 <script type="text/javascript" src="js/toup.js"></script>
